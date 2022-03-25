@@ -12,10 +12,31 @@
     <form>
         <label for="fname">Kasutajanimi:</label><br>
         <input type="text" id="fname" name="fname"><br>
-        <label for="lname">Parool:</label><br>
+        <label for="fname">Nimi:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Salasõna:</label><br>
+        <input type="password" id="lname" name="lname"><br>
+        <label for="lname">Salasõna teist korda:</label><br>
         <input type="password" id="lname" name="lname"><br>
         <p></p>
+        <input type="checkbox">   <label for="fname">Olen nõus endast infot andma:</label><br>
+        <p></p>
+        <form action="/action_page.php">
+            <label for="makseviis">Vali makseviis:</label>
+            <select name="makseviis" id="makseviis">
+              <option value="SWED">SWED</option>
+    
+              <option value="SEB">SEB</option>
+              <option value="LHV">LHV</option>
+              
+            </select>
+            <br><br>
+            
+          </form>
+        
+        <p></p>
         <input type="submit" value="Sisene">
+        <p></p>
        
       </form>
 </body>
