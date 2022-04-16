@@ -1,0 +1,53 @@
+header{
+    display: flex;
+    justify-content:center;
+   align-items: center;
+   
+   align-items:inherit;
+   font-family:'Times New Roman', Times, serif;
+   font-size:  30px;
+
+}
+
+.konteiner{
+    display:flex;
+    justify-content: center;
+}
+
+.blokk1,.blokk2,.blokk3{
+    display:flex; 
+    width:300px;
+    height:300px;
+    background-color: rgb(11, 16, 16);
+  
+    justify-content:space-evenly;
+    border-style:groove;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.blokk1{
+  background:url(pildid/dog22.jpg) no-repeat;
+  background-color: black;
+  background-size: contain;
+  width: 300px;
+  height: 300px;
+  }
+  
+  .blokk2{
+    background:url(pildid/maaler1.jpg) no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    }
+
+ 
+
+
+.blokk3{
+    background:url(pildid/aja3.jpg) no-repeat;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+ 
+    }
