@@ -32,14 +32,21 @@ header{
   background-size: contain;
   width: 300px;
   height: 300px;
+  font-family: 'Times New Roman', Times, serif; ; font-size: 20px;
   }
+
+
+
   
+  
+
   .blokk2{
     background:url(pildid/maaler1.jpg) no-repeat;
     background-size: contain;
     width: 300px;
     height: 300px;
-    }
+    font-family: 'Times New Roman', Times, serif;  font-size: 20px;
+    } 
 
  
 
@@ -49,5 +56,6 @@ header{
     background-size: contain;
     width: 300px;
     height: 300px;
+    font-family: 'Times New Roman', Times, serif;  font-size:20px;
  
     }
