@@ -6,12 +6,16 @@ header{
    align-items:inherit;
    font-family:'Times New Roman', Times, serif;
    font-size:  30px;
+   background-color: rgb(238, 239, 239);
+   padding-left: 50px;
 
 }
+body{background-color: rgb(154, 158, 158);}
 
 .konteiner{
     display:flex;
     justify-content: center;
+   
 }
 
 .blokk1,.blokk2,.blokk3{
@@ -57,5 +61,9 @@ header{
     width: 300px;
     height: 300px;
     font-family: 'Times New Roman', Times, serif;  font-size:20px;
+    background-color: black;
  
     }
+
+
+
