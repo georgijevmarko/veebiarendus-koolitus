@@ -1,3 +1,7 @@
+
+
+body{background-color: rgb(154, 158, 158);}
+
 header{
     display: flex;
     justify-content:center;
@@ -7,14 +11,17 @@ header{
    font-family:'Times New Roman', Times, serif;
    font-size:  30px;
    background-color: rgb(238, 239, 239);
-   padding-left: 50px;
-
-}
-body{background-color: rgb(154, 158, 158);}
+   height:auto
+ }
+   
+  
 
 .konteiner{
     display:flex;
+    flex-wrap: wrap;
     justify-content: center;
+  background-color: rgb(140, 133, 133);
+    width:100%;
    
 }
 
@@ -22,20 +29,21 @@ body{background-color: rgb(154, 158, 158);}
     display:flex; 
     width:300px;
     height:300px;
-    background-color: rgb(11, 16, 16);
+    background-color: rgb(69, 72, 72);
   
     justify-content:space-evenly;
     border-style:groove;
     margin-left: 30px;
-    margin-top: 30px;
+    margin-right:30px;
+    margin-top: 100px;
 }
 
 .blokk1{
-  background:url(pildid/dog22.jpg) no-repeat;
-  background-color: black;
-  background-size: contain;
-  width: 300px;
-  height: 300px;
+  background:url(" https://georgijevmarko.github.io/veebiarendus-koolitus/loeng 05/pildid/dog22.jpg")  no-repeat;
+ 
+  background-size: cover;
+  width:300px;
+
   font-family: 'Times New Roman', Times, serif; ; font-size: 20px;
   }
 
@@ -45,8 +53,8 @@ body{background-color: rgb(154, 158, 158);}
   
 
   .blokk2{
-    background:url(pildid/maaler1.jpg) no-repeat;
-    background-size: contain;
+    background:url(" https://georgijevmarko.github.io/veebiarendus-koolitus/loeng 05/pildid/barber (1).jpg") no-repeat;
+    background-size: cover;
     width: 300px;
     height: 300px;
     font-family: 'Times New Roman', Times, serif;  font-size: 20px;
@@ -56,8 +64,8 @@ body{background-color: rgb(154, 158, 158);}
 
 
 .blokk3{
-    background:url(pildid/aja3.jpg) no-repeat;
-    background-size: contain;
+    background:url("https://georgijevmarko.github.io/veebiarendus-koolitus/loeng 05/pildid/aja3.jpg") no-repeat;
+    background-size: cover;
     width: 300px;
     height: 300px;
     font-family: 'Times New Roman', Times, serif;  font-size:20px;
@@ -66,4 +74,8 @@ body{background-color: rgb(154, 158, 158);}
     }
 
 
+footer{background-color: rgb(140, 133, 133);
+    height: 400px;
+
+}
 
